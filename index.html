@@ -9,7 +9,50 @@
 </head>
 
 <body>
-    
+    <div class="image-section">
+    </div>
+    <div class="info-container">
+        <div calss="text-and-form">
+            <div class="main-text">
+                <p>This isn’t just another form.
+                    It’s your gateway to powder days, alpine air, and the thrill of the mountain.
+                    Sign up now — winter won’t wait.
+                    You know you want to.</p>
+            </div>
+            <div class="form">
+                <form>
+                    <p>Let's do this!</p>
+                    <div class="form-row">
+                        <label for="fname">First Name</label>
+                        <input id="fname" name="fname" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="lname">Last Name</label>
+                        <input id="lname" name="lname" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="mail">Email</label>
+                        <input type="email" id="mail" name="mail" autocomplete="email">
+                    </div>
+                    <div class="form-row">
+                        <label for="phNo">Phone Number</label>
+                        <input type="tel" id="phNo" name="phNo" pattern="[0-9]{10}" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="pswd">Password</label>
+                        <input type="password" id="pswd" name="pswd" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="confirm">Confirm Password</label>
+                        <input type="password" id="confirm" name="confirm" minlength="8" autocomplete="new-password"
+                            required>
+                    </div>
+
+                    <button type="submit">Shred the Slopes!</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    display:flex;
+    color:#555;
+}   
+.image-section{
+    background:url(./images/img1.jpg);
+    width:400px;
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.info-container{
+    flex:1;
+    padding-left:20px;
+}
+.main-text{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.form p{
+    margin-bottom:20px;
+}
+.form button{
+    margin-top:25px;
+}
