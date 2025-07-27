@@ -88,3 +88,35 @@ input::placeholder {
   font-weight: 400;      
   opacity: 1;             
 }
+.overlay{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width:100%;
+    text-align:center;
+    gap:16px;
+    margin-top:140px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.overlay p:first-of-type{
+    font-size:60px;
+    margin-bottom:0px;
+}
+.overlay P:last-child{
+    font-size:12px;
+    margin-top:0px;
+}
+.overlay img{
+    height:75px;
+    width:70px;
+}
+.logo-info{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0.9;
+    gap:0;
+}
