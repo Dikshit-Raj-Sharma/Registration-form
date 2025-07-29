@@ -42,12 +42,17 @@ body {
 .form p {
     margin-bottom: 20px;
     font-weight: 600;
+    font-size: 25px;
+}
+
+.form p:last-of-type {
+    font-size: 14px;
 }
 
 .form button {
     margin-top: 25px;
     border: none;
-    background-color: green;
+    background-color: #0ab513;
     color: white;
     padding: 8px 12px 8px 12px;
     border-radius: 8px;
@@ -61,6 +66,10 @@ body {
     gap: 5rem
 }
 
+.required {
+    color: red;
+}
+
 label {
     display: block;
     margin-bottom: 1px;
@@ -70,7 +79,7 @@ label {
 
 .footer {
     color: white;
-    width:100%;
+    width: 100%;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-size: 12px;
@@ -82,41 +91,68 @@ label {
 .image-section a {
     color: white;
 }
+
 input::placeholder {
-  font-size: 0.7rem;      
-  color: #999;          
-  font-weight: 400;      
-  opacity: 1;             
+    font-size: 0.7rem;
+    color: #999;
+    font-weight: 400;
+    opacity: 1;
 }
-.overlay{
-    display:flex;
+
+input:invalid:not(:placeholder-shown) {
+    border-color: red;
+}
+
+button[type="submit"]:hover {
+    background-color: green;
+}
+
+input {
+    width: 100%;
+    padding: 6px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus {
+    border-color: #447bc7;
+    outline: none;
+}
+
+.overlay {
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    width:100%;
-    text-align:center;
-    gap:16px;
-    margin-top:140px;
-    padding-top:20px;
-    padding-bottom:20px;
+    width: 100%;
+    text-align: center;
+    gap: 16px;
+    margin-top: 140px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-.overlay p:first-of-type{
-    font-size:60px;
-    margin-bottom:0px;
+
+.overlay p:first-of-type {
+    font-size: 60px;
+    margin-bottom: 0px;
 }
-.overlay P:last-child{
-    font-size:12px;
-    margin-top:0px;
+
+.overlay P:last-child {
+    font-size: 12px;
+    margin-top: 0px;
 }
-.overlay img{
-    height:75px;
-    width:70px;
+
+.overlay img {
+    height: 75px;
+    width: 70px;
 }
-.logo-info{
-    display:flex;
+
+.logo-info {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     line-height: 0.9;
-    gap:0;
+    gap: 0;
 }

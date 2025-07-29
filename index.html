@@ -32,16 +32,17 @@
                     You know you want to.</p>
             </div>
             <div class="form">
-                <form>
+                <form id="JAWform">
                     <p>Let's do this!</p>
+                    <p>Required Fields are Marked With <strong>*</strong></p>
                     <div class="row-wrap">
                         <div class="form-row">
                             <div class="input-row">
-                                <label for="fname">First Name</label>
+                                <label for="fname">First Name <span class="required" aria-hidden="true">*</span></label>
                                 <input id="fname" name="fname" placeholder="Eg. John" required>
                             </div>
                             <div class="input-row">
-                                <label for="lname">Last Name</label>
+                                <label for="lname">Last Name <span class="required" aria-hidden="true">*</span></label>
                                 <input id="lname" name="lname" placeholder="Eg. Doe" required>
                             </div>
                         </div>
@@ -51,17 +52,17 @@
                                 <input type="email" id="mail" name="mail" autocomplete="email" placeholder="john.doe@example.com">
                             </div>
                             <div class="input-row">
-                                <label for="phNo">Phone Number</label>
+                                <label for="phNo">Phone Number <span class="required" aria-hidden="true">*</span></label>
                                 <input type="tel" id="phNo" name="phNo" pattern="[0-9]{10}" placeholder="+91 9876543210" required>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="input-row">
-                                <label for="pswd">Password</label>
+                                <label for="pswd">Password <span class="required" aria-hidden="true">*</span></label>
                                 <input type="password" id="pswd" name="pswd" placeholder="Create a password" required>
                             </div>
                             <div class="input-row">
-                                <label for="confirm">Confirm Password</label>
+                                <label for="confirm">Confirm Password <span class="required" aria-hidden="true">*</span></label>
                                 <input type="password" id="confirm" name="confirm" placeholder="Repeat password" minlength="8"
                                     autocomplete="new-password" required>
                             </div>
@@ -72,6 +73,7 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
