@@ -1,12 +1,52 @@
-# HTML Forms Project
+# ❄️ Winter Signup Form
 
-This is a simple web project focused on building and styling HTML forms.
+A clean and responsive sign-up form with a frosty winter theme. Built using HTML, CSS, and vanilla JavaScript as part of The Odin Project curriculum.
 
-The goal is to practice how to:
-- Create structured and accessible HTML forms
-- Use different input types (text, email, password, radio buttons, checkboxes, etc.)
-- Group form elements with proper labels and fieldsets
-- Handle form submission (basic setup)
-- Apply basic styling to form elements using CSS
+## 🌟 Highlights
 
-More features and functionality may be added as the project progresses.
+- Full-page background image with logo and layered form
+- Responsive layout using Flexbox
+- Accessible form with required field indicators (*)
+- Real-time password match validation using JavaScript
+- Custom input focus and error states
+- Styled submit button with hover effects
+
+## 🔧 Tech Used
+
+- HTML5  
+- CSS3 (Flexbox, custom form styling)  
+- JavaScript (basic DOM & validation)  
+
+## 🚀 Getting Started
+
+To run the project locally:
+
+```bash
+git clone https://github.com/Dikshit-Raj-Sharma/Registration-form.git
+cd Registration-form-form
+```
+
+Then open `index.html` in your browser.
+
+## 📁 Folder Structure
+
+```
+winter-signup-form/
+├── index.html
+├── styles.css
+├── script.js
+└── images/
+    ├── img1.jpg
+    └── logo.png
+```
+
+## ✅ Features Implemented
+
+- ✅ Overlay logo and tagline
+- ✅ Responsive and centered form layout
+- ✅ Required fields visibly marked with asterisk (*)
+- ✅ Password match validation before submission
+- ✅ Input styling: focus and error feedback
+- ✅ Clean, minimal UI with a winter feel
+
+
